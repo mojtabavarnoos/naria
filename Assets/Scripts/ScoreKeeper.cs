@@ -5,6 +5,7 @@ public class ScoreKeeper : MonoBehaviour
 {
     public Text ScoreTextObject;
     public int score { get; private set; }
+
     private void Start()
     {
         AddToScore(0);
